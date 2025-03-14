@@ -4,19 +4,19 @@
 A diamond shopping app built in flutter, supports android and ios. This project uses the **BLoC (Business Logic Component)** pattern for state management. Each feature (e.g., Cart, Home) has its own BLoC folder where the logic for managing state is defined.
 
 ## Project Structure
-lib/
-├── common/
-├── data/
-├── features/
-│   ├── cart/
-│   │   ├── bloc/
-│   │   └── ui/
-│   └── home/
-│       ├── bloc/
-│       └── ui/
-├── services/
-├── models/
-└── main.dart
+    lib/
+    ├── common/
+    ├── data/
+    ├── features/
+    │   ├── cart/
+    │   │   ├── bloc/
+    │   │   └── ui/
+    │   └── home/
+    │       ├── bloc/
+    │       └── ui/
+    ├── services/
+    ├── models/
+    └── main.dart
 
 ## Directory Breakdown
 
